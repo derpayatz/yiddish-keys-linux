@@ -2,12 +2,6 @@
 
 Yiddish keyboard layout for GNU/Linux
 
-Windows version: https://github.com/heyheydanhey/yiddish-keys-windows
-
-OSX version: https://github.com/heyheydanhey/yiddish-keys-osx
-
-More info: http://www.shretl.org
-
 **"But didn't you know you can write Yiddish with a Hebrew layout?"**  
 **"*Nu*, tell me something I don't know!"**
 
@@ -23,7 +17,7 @@ This Yiddish keyboard hopes to address this by providing an intuitive and eventu
 standard Yiddish keyboard for all major OSs to ultimately, it is hoped, include 
 as a vanilla feature.
 
-This is a pared-down version of [heyheydanhey](https://github.com/heyheydanhey)'s version&mdash;just the QWERTY layout.
+This is a modified version of [nevillepark] https://github.com/nevillepark/yiddish-keys-linux)'s version, using Feygl Infeld Glaser's modernized Royal Yiddish keyboard, updated to support all YIVO-standard Yiddish combinations.
 
 **Installation**
 

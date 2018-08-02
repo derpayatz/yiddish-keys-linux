@@ -2,8 +2,8 @@
 
 Yiddish keyboard layout for GNU/Linux (Version 1)
 
-**"But didn't you know you can write Yiddish with a Hebrew layout?"**  
-**"*Nu*, tell me something I don't know!"**
+**"What is this, another Yiddish keyboard layout?"**
+**ייִדן אױ ייִדן, װיפֿיל קלאװיאטורן דאַרפֿן מיר?**
 
 Like a frozen forest bare of birds and leaves, Yiddish orthography on the internet 
 has shed its defining hats, dots and strikes because of the lack of alternatives 

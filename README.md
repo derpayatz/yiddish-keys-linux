@@ -1,6 +1,6 @@
 # yiddish-keys-linux
 
-Yiddish keyboard layout for GNU/Linux
+Yiddish keyboard layout for GNU/Linux (Version 1)
 
 **"But didn't you know you can write Yiddish with a Hebrew layout?"**  
 **"*Nu*, tell me something I don't know!"**
@@ -17,7 +17,7 @@ This Yiddish keyboard hopes to address this by providing an intuitive and eventu
 standard Yiddish keyboard for all major OSs to ultimately, it is hoped, include 
 as a vanilla feature.
 
-This is a modified version of [nevillepark] https://github.com/nevillepark/yiddish-keys-linux)'s version, using Feygl Infeld Glaser's modernized Royal Yiddish keyboard, updated to support all YIVO-standard Yiddish combinations.
+This is a modified version of [nevillepark] https://github.com/nevillepark/yiddish-keys-linux)'s version, inspired by Feygl Infeld Glaser's Yiddish keyboard for Qtext and modified for compactness and to preserve standard punctuation from the US keyboard.
 
 **Installation**
 

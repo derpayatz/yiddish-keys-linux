@@ -1,68 +1,66 @@
-// Yiddish keyboard map
+// Yiddish keyboard map v.1
 //
 // Source:
-// https://github.com/heyheydanhey/yiddish-keys-linux
+// https://github.com/derpayatz/yiddish-keys-linux
 //
-// http://www.shretl.org
 
 
 default partial alphanumeric_keys
 xkb_symbols "basic" {
 
-    // Yiddish qwerty keyboard map designed by Daniel Nemenyi
+    // Yiddish qwerty keyboard map created by Marc Trius, based on the layout by Feygl Infeld Glaser for Qtext (http://www.shoshke.net/uyip/keyboards.htm#FEYGL), with modifications for compactness and to preserve standard punctuation locations from the US keyboard.
 
     name[Group1]= "Yiddish";
+    
+    key <TLDE> {	[     grave,	asciitilde	]	};
+    key <AE01> {	[	  1,	exclam 		]	};
+    key <AE02> {	[	  2,	at		]	};
+    key <AE03> {	[	  3,	numbersign	]	};
+    key <AE04> {	[	  4,	dollar		]	};
+    key <AE05> {	[	  5,	percent		]	};
+    key <AE06> {	[	  6,	asciicircum	]	};
+    key <AE07> {	[	  7,	ampersand	]	};
+    key <AE08> {	[	  8,	asterisk	]	};
+    key <AE09> {	[	  9,	parenleft	]	};
+    key <AE10> {	[	  0,	parenright	]	};
+    key <AE11> {	[     minus,	underscore	]	};
+    key <AE12> {	[     equal,	plus		]	};
+    
+    key <AD01> { [ U05F4, U05F3 ] }; // ״ ׳
+    key <AD02> { [ U05E7 ] }; // ק
+    key <AD03> { [ UFB2F ] }; // אָ
+    key <AD04> { [ U05E8 ] }; // ר
+    key <AD05> { [ U05D0, UFB2E ] }; // א אַ‬
+    key <AD06> { [ U05D8 ] }; // ט
+    key <AD07> { [ U05F0, U05F1 ] }; // װ ױ 
+    key <AD08> { [ U05D5, UFB35 ] }; // ו,וּ
+    key <AD09> { [  UFB4E, U05E3 ] }; // פֿ‬ ף
+    key <AD10> { [ UFB44, U05E4 ] }; // פּ פ
+    key <AD11> {	[ bracketleft,	braceleft	]	};
+    key <AD12> {	[ bracketright,	braceright	]	};
 
-    key <AE01> { [     1, exclam, U20AA                           ] }; // sheykl
-    key <AE02> { [     2, at,    EuroSign                         ] };
-    key <AE03> { [     3, numbersign, U00A3                       ] }; // pound
-    key <AE04> { [     4, dollar, cent                            ] }; 
-    key <AE05> { [     5, percent,  U221E                         ] }; // infinity sign 
-    key <AE06> { [     6, asciicircum, U00B6                      ] }; // pilcrow
-    key <AE07> { [     7, ampersand                               ] }; 
-    key <AE08> { [     8, asterisk, U2022                         ] }; // bullet
-    key <AE09> { [     9, parenright,   U00AA                     ] }; // (mirrored)
-    key <AE10> { [     0, parenleft,    U00B0                     ] }; // (mirrored)
-    key <AE11> { [ minus,       underscore, U2E17                 ] }; // double oblique hyphen
-    key <AE12> { [ equal,       plus,       U2260                 ] }; // not equal to
+    key <AC01> { [ U05E9, UFB2B ] }; // ש שׂ 
+    key <AC02> { [ U05D3 ,UFB2A] }; // ד‬ שׁ
+    key <AC03> { [ U05D2, U05DA ] }; // ג‬ ך
+    key <AC04> { [ U05DB, UFB3B ] }; // כ כּ
+    key <AC05> { [ U05E2 ] }; // ע
+    key <AC06> { [ U05F2, UFB1F ] }; // ײ ײַ
+    key <AC07> { [ U05D9, UFB1D ] }; // י יִ
+    key <AC08> { [ U05D7, less ] }; // ח‬
+    key <AC09> { [ U05DC, greater ] }; // ל
+    key <AC10> {	[ semicolon,	colon		]	};
+    key <AC11> {	[ apostrophe,	quotedbl	]	};
 
-    key <AD01> { [ UFB3B                                          ] }; // (Q) kof
-    key <AD02> { [ U05E9,       UFB2B                             ] }; // (w) shin, sin
-    key <AD03> { [ hebrew_ayin                                    ] }; // (e) ayin
-    key <AD04> { [ hebrew_resh                                    ] }; // (r) reysh
-    key <AD05> { [ hebrew_tet,  UFB4A                             ] }; // (t) tet, tof
-    key <AD06> { [ U05F2,       UFB1F                             ] }; // (y) ey, ay
-    key <AD07> { [ hebrew_aleph                                   ] }; // (u) shtumer alef
-    key <AD08> { [ hebrew_yod,  UFB1D                             ] }; // (i) yud, yud mit a pintl
-    key <AD09> { [ UFB2F                                          ] }; // (o) kometz alef
-    key <AD10> { [ UFB44                                          ] }; // (p) pey 
-    key <AD11> { [ bracketright, braceright                       ] }; // (mirrored)
-    key <AD12> { [ bracketleft,  braceleft                        ] }; // (mirrored)
+    key <AB01> { [ period, comma ] }; // . ,
+    key <AB02> { [ U05D6 ] }; // ז‬
+    key <AB03> { [ U05E1, UFB31] }; // ס בּ
+    key <AB04> { [ U05D1, UFB4C ] }; // ב בֿ
+    key <AB05> { [ U05D4 ] }; // ה
+    key <AB06> { [ U05E0, U05DF ] }; // נ‬ ן
+    key <AB07> { [ U05DE, U05DD ] }; // מ ם‬
+    key <AB08> { [ U05E6, U05E5 ] }; // צ‬ ץ
+    key <AB09> { [ U05EA, UFB4A ] }; // ת תּ‬
+    key <AB10> {	[     slash,	question	]	};
 
-    key <AC01> { [ UFB2E                                          ] }; // (a) patakh alef
-    key <AC02> { [ U05E1,       U05EA                             ] }; // (s) samekh, sof
-    key <AC03> { [ hebrew_dalet                                   ] }; // (d) daled
-    key <AC04> { [ UFB4E,       U05E3                             ] }; // (f) fey, langer fey
-    key <AC05> { [ hebrew_gimel                                   ] }; // (g) gimel
-    key <AC06> { [ hebrew_he                                      ] }; // (h) hey
-    key <AC07> { [ hebrew_chet                                    ] }; // (j) chet
-    key <AC08> { [ hebrew_qoph                                    ] }; // (k) kof
-    key <AC09> { [ hebrew_lamed,    U05F3,  U05F4                 ] }; // (l) lamed, geresh, tzvey gereyshim
-    key <AC10> { [ semicolon,   colon,      U003b                 ] }; // elipses
-    key <AC11> { [ U201E, U201C, U201C                            ] }; // quote, top quote
-
-    key <AB01> { [ hebrew_zain, hebrew_zain                       ] }; // (z) zayin 
-    key <AB02> { [ hebrew_zade, U05E5                             ] }; // (x) tzadik, langer tzadik 
-    key <AB03> { [ hebrew_kaph, hebrew_finalkaph                  ] }; // (c) khop, langer khop 
-    key <AB04> { [ hebrew_waw,  UFB35                             ] }; // (v) vov, vov mit a pintl 
-    key <AB05> { [ hebrew_bet,  UFB4C                             ] }; // (b) beys, veys 
-    key <AB06> { [ hebrew_nun,  hebrew_finalnun                   ] }; // (n) nun, langer nun 
-    key <AB07> { [ hebrew_mem,  hebrew_finalmem                   ] }; // (m) nun, shlosn mem 
-    key <AB08> { [ comma, greater                                 ] }; // (mirrored)
-    key <AB09> { [ period, less                                   ] }; // (mirrored)
-    key <AB10> { [ slash,       question                          ] }; 
-
-    key.type[Group1] = "THREE_LEVEL";
-
-    include "level3(ralt_switch)"
+    key <BKSL> {	[ backslash,         bar	]	};
 };

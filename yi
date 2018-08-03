@@ -21,8 +21,8 @@ xkb_symbols "basic" {
     key <AE06> {	[	  6,	asciicircum	]	};
     key <AE07> {	[	  7,	ampersand	]	};
     key <AE08> {	[	  8,	asterisk	]	};
-    key <AE09> {	[	  9,	parenleft	]	};
-    key <AE10> {	[	  0,	parenright	]	};
+    key <AE09> {	[	  9,	parenright	]	};
+    key <AE10> {	[	  0,	parenleft	]	};
     key <AE11> {	[     minus,	underscore	]	};
     key <AE12> {	[     equal,	plus		]	};
     
@@ -36,8 +36,8 @@ xkb_symbols "basic" {
     key <AD08> { [ U05D5, UFB35 ] }; // ו,וּ
     key <AD09> { [  UFB4E, U05E3 ] }; // פֿ‬ ף
     key <AD10> { [ UFB44, U05E4 ] }; // פּ פ
-    key <AD11> {	[ bracketleft,	braceleft	]	};
-    key <AD12> {	[ bracketright,	braceright	]	};
+    key <AD11> {	[ bracketright,	braceright	]	};
+    key <AD12> {	[ bracketleft,	braceleft	]	};
 
     key <AC01> { [ U05E9, UFB2B ] }; // ש שׂ 
     key <AC02> { [ U05D3 ,UFB2A] }; // ד‬ שׁ
@@ -46,8 +46,8 @@ xkb_symbols "basic" {
     key <AC05> { [ U05E2 ] }; // ע
     key <AC06> { [ U05F2, UFB1F ] }; // ײ ײַ
     key <AC07> { [ U05D9, UFB1D ] }; // י יִ
-    key <AC08> { [ U05D7, less ] }; // ח‬
-    key <AC09> { [ U05DC, greater ] }; // ל
+    key <AC08> { [ U05D7, greater ] }; // ח‬
+    key <AC09> { [ U05DC, less ] }; // ל
     key <AC10> {	[ semicolon,	colon		]	};
     key <AC11> {	[ apostrophe,	quotedbl	]	};
 

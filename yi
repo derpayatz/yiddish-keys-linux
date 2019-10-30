@@ -45,7 +45,7 @@ xkb_symbols "basic" {
     key <AC04> { [ U05D2, U05DA ] }; // ג‬ ך
     key <AC05> { [ U05DB, UFB3B ] }; // כ כּ
     key <AC06> { [ U05E2, U201A ] }; // ע ‚
-    key <AC07> { [ U05F2, U2018 ] }; // ײַ ’
+    key <AC07> { [ UFB1F, U2018 ] }; // ײַ ’
     key <AC08> { [ U05D9, UFB1D ] }; // י יִ 
     key <AC09> { [ U05D7, greater ] }; // ח‬ >
     key <AC10> { [ U05DC, less ] }; //  ל <

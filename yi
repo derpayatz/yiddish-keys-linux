@@ -8,7 +8,7 @@
 default partial alphanumeric_keys
 xkb_symbols "basic" {
 
-    // Yiddish qwerty keyboard map created by Marc Trius, based on the layout by Feygl Infeld Glaser for Qtext (http://www.shoshke.net/uyip/keyboards.htm#FEYGL), with modifications for compactness and to preserve standard punctuation locations from the US keyboard.
+    // Yiddish qwerty keyboard map created by Marc Trius, based on the layout by Feygl Infeld Glaser for Qtext (http://www.shoshke.net/uyip/keyboards.htm#FEYGL), with modifications for compactness and to preserve standard punctuation locations from the US keyboard, and further modified for completeness, typographical punctuation, and usability.
 
     name[Group1]= "Yiddish";
     
@@ -26,16 +26,16 @@ xkb_symbols "basic" {
     key <AE11> {	[     minus,	underscore	]	};
     key <AE12> {	[     equal,	plus		]	};
     
-    key <AD01> { [ U05F4, U05F3 ] }; // ״ ׳
-    key <AD02> { [ U05E7, U05BE ] }; // ק ־
-    key <AD03> { [ UFB2F, UFB4F ] }; // אָ ﭏ
-    key <AD04> { [ U05E8 ] }; // ר
-    key <AD05> { [ U05D0, UFB2E ] }; // א אַ‬
-    key <AD06> { [ U05D8 ] }; // ט
-    key <AD07> { [ U05F0, U05F1 ] }; // װ ױ 
-    key <AD08> { [ U05D5, UFB35 ] }; // ו,וּ
-    key <AD09> { [  UFB4E, U05E3 ] }; // פֿ‬ ף
-    key <AD10> { [ UFB44, U05E4 ] }; // פּ פ
+    key <AD01> { [ U05F3, U05F4 ] }; //  ׳ ״
+    key <AD02> { [ U05E7, UFB2E ] }; // ק  ﬞ
+    key <AD03> { [ UFB2F, UFB2E ] }; // אָ אַ
+    key <AD04> { [ U05D0, UFB4F ] }; // א ﭏ‬
+    key <AD05> { [ U05E8, U201E ] }; // ר „
+    key <AD06> { [ U05D8, U201C ] }; // ט ”
+    key <AD07> { [ U05D5, UFB35 ] }; // ו,וּ
+    key <AD08> { [  UFB4E, U05E3 ] }; // פֿ‬ ף
+    key <AD09> { [ UFB44, U05E4 ] }; // פּ פ
+    key <AD10> { [ U05BE, U2014 ] }; // ־ —
     key <AD11> {	[ bracketright,	braceright	]	};
     key <AD12> {	[ bracketleft,	braceleft	]	};
 
@@ -43,24 +43,24 @@ xkb_symbols "basic" {
     key <AC02> { [ U05D3 ,UFB2A] }; // ד‬ שׁ
     key <AC03> { [ U05D2, U05DA ] }; // ג‬ ך
     key <AC04> { [ U05DB, UFB3B ] }; // כ כּ
-    key <AC05> { [ U05E2 ] }; // ע
-    key <AC06> { [ U05F2, UFB1F ] }; // ײ ײַ
-    key <AC07> { [ U05D9, UFB1D ] }; // י יִ
-    key <AC08> { [ U05D7, greater ] }; // ח‬
-    key <AC09> { [ U05DC, less ] }; // ל
+    key <AC05> { [ U05E2, U201A ] }; // ע ‚
+    key <AC06> { [ U05F2, U2018 ] }; // ײַ ’
+    key <AC07> { [ U05D9, UFB1D ] }; // י יִ 
+    key <AC08> { [ U05D7, greater ] }; // ח‬ >
+    key <AC09> { [ U05DC, less ] }; //  ל <
     key <AC10> {	[ semicolon,	colon		]	};
     key <AC11> {	[ apostrophe,	quotedbl	]	};
 
-    key <AB01> { [ period, comma ] }; // . ,
-    key <AB02> { [ U05D6 ] }; // ז‬
+    key <AB01> { [ period, U2026 ] }; // . …
+    key <AB02> { [ U05D6, UFB4B ] }; // ז‬ וֹ
     key <AB03> { [ U05E1, UFB31] }; // ס בּ
     key <AB04> { [ U05D1, UFB4C ] }; // ב בֿ
-    key <AB05> { [ U05D4 ] }; // ה
-    key <AB06> { [ U05E0, U05DF ] }; // נ‬ ן
-    key <AB07> { [ U05DE, U05DD ] }; // מ ם‬
-    key <AB08> { [ U05E6, U05E5 ] }; // צ‬ ץ
-    key <AB09> { [ U05EA, UFB4A ] }; // ת תּ‬
-    key <AB10> {	[     slash,	question	]	};
+    key <AB05> { [ U05E0, U05DF ] }; // נ‬ ן
+    key <AB06> { [ U05DE, U05DD ] }; // מ ם‬
+    key <AB07> { [ U05E6, U05E5 ] }; // צ‬ ץ
+    key <AB08> { [ U05EA, UFB4A ] }; // ת תּ‬
+    key <AB09> { [ U05D4, slash ] }; //  ה /
+    key <AB10> {	[ comma,  question ]	}; // , ?
 
-    key <BKSL> {	[ backslash,         bar	]	};
+    key <BKSL> {	[ backslash, bar	]	};
 };

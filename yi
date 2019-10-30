@@ -28,7 +28,7 @@ xkb_symbols "basic" {
     
     key <AD01> { [ U05BE, U2014 ] }; // ־ —
     key <AD02> { [ U05F3, U05F4 ] }; //  ׳ ״
-    key <AD03> { [ U05E7, UFB2E ] }; // ק  ﬞ
+    key <AD03> { [ U05E7, UFB1E ] }; // ק  ﬞ
     key <AD04> { [ UFB2F, UFB2E ] }; // אָ אַ
     key <AD05> { [ U05D0, UFB4F ] }; // א ﭏ‬
     key <AD06> { [ U05E8, U201E ] }; // ר „

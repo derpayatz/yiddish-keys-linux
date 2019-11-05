@@ -26,7 +26,7 @@ xkb_symbols "basic" {
     key <AE11> {	[     minus,	underscore	]	};
     key <AE12> {	[     equal,	plus		]	};
     
-    key <AD01> { [ U05BE, U2014 ] }; // ־ —
+    key <AD01> { [ U05BE, U2015 ] }; // ־ ―
     key <AD02> { [ U05F3, U05F4 ] }; //  ׳ ״
     key <AD03> { [ U05E7, UFB1E ] }; // ק  ﬞ
     key <AD04> { [ UFB2F, UFB2E ] }; // אָ אַ
